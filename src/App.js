@@ -10,7 +10,7 @@ class App extends Component {
         return (
             <Router>
                 <div>
-                    <h2>About Nero</h2>
+                    <h1>About Nero</h1>
                     <nav className="navbar navbar-expand-lg navbar-light bg-light">
                         <ul className="navbar-nav mr-auto">
                             <li><Link to={'/'} className="nav-link"> Biograghy </Link></li>

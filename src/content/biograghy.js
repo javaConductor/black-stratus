@@ -1,12 +1,13 @@
 // AutoBiography.js
 
 import React, { Component } from 'react';
+import '../biography.css';
 
 class Biograghy extends Component {
 	render() {
 		return (
 			<div>
-				<h2>Biography</h2>
+				<h2 class={'biographyStyle'}>Biography</h2>
 				Nero was Roman emperor from 54 to 68 CE. The last of the Julio-Claudians to rule the Roman Empire,
 				his 14-year reign represents everything decadent about that period in Roman history.
 				He was self-indulgent, cruel, and violent as well as a cross-dressing exhibitionist.
